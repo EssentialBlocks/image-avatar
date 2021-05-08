@@ -1,6 +1,6 @@
 import { useState } from "@wordpress/element";
 
-const ImageAvater = ({ imageUrl, onDeleteImage }) => {
+const ImageAvatar = ({ imageUrl, onDeleteImage }) => {
   const [hover, setHover] = useState(false);
   const [deleteHover, setDeleteHover] = useState(false);
 
@@ -37,4 +37,4 @@ const ImageAvater = ({ imageUrl, onDeleteImage }) => {
   );
 };
 
-export default ImageAvater;
+export default ImageAvatar;
