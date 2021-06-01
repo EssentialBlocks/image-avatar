@@ -1,4 +1,4 @@
-import { useState } from "@wordpress/element";
+const { useState } = wp.element;
 
 const ImageAvatar = ({ imageUrl, onDeleteImage }) => {
   const [hover, setHover] = useState(false);
